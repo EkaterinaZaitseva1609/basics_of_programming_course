@@ -1,18 +1,11 @@
-<meta charset ="utf-8">
+<meta charset="utf-8">
 <script>
-var rub = prompt("Введите число в рублях");
-var euro = 100;
-var dol = 90; 
-rub = parseInt(rub);
-sumE = rub / euro;
-sumD = rub / dol; 
+    var rub = prompt("Введите число в рублях");
+    var euro = 100;
+    var dol = 90;
+    rub = parseInt(rub);
+    sumE = rub / euro;
+    sumD = rub / dol;
 
-	alert("Euro: " + sumE + " Dollar: " + sumD);
-
-	
-
-
-
-
-
+    alert("Euro: " + sumE.toFixed(2) + "\nDollar: " + sumD.toFixed(2));
 </script>
