@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.top {
+    height: 768px;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: 'DM Sans', 'sans-serif';
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1A1A1A;
+}
+
+.plantbtn {
+    font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #1A1A1A;
+    padding-right: 331px;
+}
+.singupbtn {
+    background: #066F14;
+    padding: 12px 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.topbtn {
+    padding-left: 128px;
+}
+.top_info {
+    padding-top: 102px;
+    flex-grow: 1;
+    background-image: url("aloe.png"), url("leaves.png");
+    background-repeat: no-repeat;
+    background-position: right, 408px 387px;
+}
+
+.header1 {
+    font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-size: 72px;
+    line-height: 92px;
+    color: #1A1A1A;
+    margin-bottom: 24px;
+    width: 548px;
+}
+.top_box{
+    display: flex;
+    flex-direction: column;
+    height: 100% ;
+}
+.text {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    width: 504px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4A4A4A;
+}
+.btn {
+    font-family: 'DM Sans', sans-serif;
+    background: #066F14;
+    padding: 16px 32px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin: 40px 0 60px 0;
+    border-radius: 4px;
+}
+.table {
+    text-align: left;
+    width: 548px;
+}
+
+th {
+    font-size: 36px;
+    font-family: 'Nunito', 'Roboto', sans-serif;
+    line-height: 49px;
+    color: #001B04;
+}
+td {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1A1A1A;
+}
