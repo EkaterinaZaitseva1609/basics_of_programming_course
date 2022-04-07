@@ -3,18 +3,24 @@
     margin: 0;
     padding: 0;
 }
+.body {
+    font-family: 'DM Sans', 'sans-serif';
+}
 .top {
-    height: 768px;
+   height: 845px;
+    background: #ECECEC;
 }
 .container {
-    width: 1140px;
+    width: 1440px;
     margin: 0 auto;
+    border: solid 1px gray;
+    padding-left: 144px;
+    padding-right: 144px;
 }
 
 .header {
-    font-family: 'DM Sans', 'sans-serif';
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     padding-top: 50px;
 }
@@ -51,16 +57,19 @@ a {
     background-image: url("aloe.png"), url("leaves.png");
     background-repeat: no-repeat;
     background-position: right, 408px 387px;
+    position: relative;
 }
 
 .header1 {
+    width: 548px;
     font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
     font-style: normal;
     font-size: 72px;
+    font-weight: 700;
     line-height: 92px;
     color: #1A1A1A;
     margin-bottom: 24px;
-    width: 548px;
+
 }
 .top_box{
     display: flex;
@@ -70,10 +79,12 @@ a {
 .text {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
-    width: 504px;
     font-size: 16px;
     line-height: 160%;
     color: #4A4A4A;
+}
+.top_text {
+   width: 504px ;
 }
 .btn {
     font-family: 'DM Sans', sans-serif;
@@ -84,8 +95,9 @@ a {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
-    margin: 40px 0 60px 0;
+    display: inline;
     border-radius: 4px;
+    margin-top: 40px;
 }
 .table {
     text-align: left;
@@ -103,4 +115,51 @@ td {
     font-size: 18px;
     line-height: 23px;
     color: #1A1A1A;
+}
+.pointer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+
+}
+.cactus1 {
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
+    font-style: normal;
+    background: rgba(6, 111, 20, 0.7);
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+.cactus2 {
+    position: absolute;
+    top: 170px;
+    right: 450px;
+    font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
+    font-style: normal;
+    background: rgba(6, 111, 20, 0.7);
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.cactus3 {
+    position: absolute;
+    top: 580px;
+    right: 5px;
+    font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
+    font-style: normal;
+    background: rgba(6, 111, 20, 0.7);
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
