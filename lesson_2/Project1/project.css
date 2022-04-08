@@ -7,13 +7,13 @@
     font-family: 'DM Sans', 'sans-serif';
 }
 .top {
-   height: 845px;
-    background: #ECECEC;
+    background: white;
+    /*height: 845px;*/
 }
 .container {
     width: 1440px;
     margin: 0 auto;
-    border: solid 1px gray;
+    /*border: solid 1px gray;*/
     padding-left: 144px;
     padding-right: 144px;
 }
@@ -74,7 +74,6 @@ a {
 .top_box{
     display: flex;
     flex-direction: column;
-    height: 100% ;
 }
 .text {
     font-family: 'DM Sans', sans-serif;
@@ -163,3 +162,83 @@ td {
     line-height: 21px;
     color: #FFFFFF;
 }
+.heading3 {
+    font-family: 'Nunito', 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #1A1A1A;
+    width: 389px;
+    margin-bottom: 37px;
+}
+.see_collection {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4A4A4A;
+    font-family: 'DM Sans', sans-serif;
+}
+.card-box {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+  margin-top: 154px;
+}
+
+.card1 {
+    background: #F6EDE8;
+    border-radius: 4px;
+    padding: 22px 21px;
+    margin-right: 24px;
+}
+.card2 {
+    background: #F0F1F6;
+    border-radius: 4px;
+    padding: 22px 21px;
+    margin-right: 24px;
+}
+.collection {
+    padding-right: 62px;
+}
+.picture IMG{
+    position: relative;
+}
+.color_green {
+    top: 128px;
+    z-index: 1;
+}
+.tree_green {
+    left: -383px;
+    top: 168px;
+    z-index: 5;
+}
+.tree {
+    display: flex;
+    justify-content: space-between;
+}
+.header_2 {
+    width: 469px;
+}
+.info {
+    width: 504px;
+}
+.bloc {
+    padding-top: 128px;
+}
+.about_us {
+    font-size: 18px;
+    line-height: 23px;
+    color: #066F14;
+}
+.header_2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+}
+
+
