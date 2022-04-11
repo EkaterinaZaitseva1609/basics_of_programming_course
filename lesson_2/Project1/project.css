@@ -1,6 +1,6 @@
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .body {
@@ -8,14 +8,14 @@
 }
 .top {
     background: white;
+    width: 1440px;
     /*height: 845px;*/
 }
 .container {
-    width: 1440px;
-    margin: 0 auto;
+    /*margin: 0;*/
     /*border: solid 1px gray;*/
     padding-left: 144px;
-    padding-right: 144px;
+    padding-right: 21px;
 }
 
 .header {
@@ -23,6 +23,7 @@
     justify-content: space-between;
     list-style: none;
     padding-top: 50px;
+    width: 1275px;
 }
 
 a {
@@ -40,6 +41,7 @@ a {
     line-height: 33px;
     color: #1A1A1A;
     padding-right: 331px;
+
 }
 .singupbtn {
     background: #066F14;
@@ -52,12 +54,12 @@ a {
     padding-left: 128px;
 }
 .top_info {
+    width: 1275px;
     padding-top: 102px;
     flex-grow: 1;
     background-image: url("aloe.png"), url("leaves.png");
     background-repeat: no-repeat;
-    background-position: right, 408px 387px;
-    position: relative;
+    background-position: right,  465px 349px;
 }
 
 .header1 {
@@ -69,6 +71,7 @@ a {
     line-height: 92px;
     color: #1A1A1A;
     margin-bottom: 24px;
+    padding-right: 748px;
 
 }
 .top_box{
@@ -83,7 +86,8 @@ a {
     color: #4A4A4A;
 }
 .top_text {
-   width: 504px ;
+   width: 504px;
+    padding-right: 792px;
 }
 .btn {
     font-family: 'DM Sans', sans-serif;
@@ -124,8 +128,6 @@ td {
 }
 .cactus1 {
     position: absolute;
-    top: 120px;
-    right: 10px;
     font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
     font-style: normal;
     background: rgba(6, 111, 20, 0.7);
@@ -138,8 +140,6 @@ td {
 }
 .cactus2 {
     position: absolute;
-    top: 170px;
-    right: 450px;
     font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
     font-style: normal;
     background: rgba(6, 111, 20, 0.7);
@@ -151,8 +151,6 @@ td {
 }
 .cactus3 {
     position: absolute;
-    top: 580px;
-    right: 5px;
     font-family: 'Nunito Sans', 'Roboto', 'sans-serif';
     font-style: normal;
     background: rgba(6, 111, 20, 0.7);
@@ -211,8 +209,8 @@ td {
     z-index: 1;
 }
 .tree_green {
-    left: -383px;
-    top: 168px;
+    left: 70px;
+    top: -270px;
     z-index: 5;
 }
 .tree {
@@ -221,9 +219,11 @@ td {
 }
 .header_2 {
     width: 469px;
+    text-align: left;
 }
 .info {
     width: 504px;
+    text-align: left;
 }
 .bloc {
     padding-top: 128px;
@@ -240,5 +240,4 @@ td {
     line-height: 50px;
     color: #1A1A1A;
 }
-
 
